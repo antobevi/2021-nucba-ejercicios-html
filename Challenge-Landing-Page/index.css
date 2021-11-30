@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(244, 215, 255);
+}
+
+/*Contenedor padre*/
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.contenedor-navbar {
+    background-color: rgb(215, 122, 243);
+    width: 1350px;
+    height: 90px;
+    border-radius: 20px;
+    position: fixed;
+}
+
+.logo {
+    background-image: url(../Challenge-Landing-Page/Images/programmer.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 11px;
+    left: 15px;
+}
+
+.boton-navbar {
+    background: none;
+    position: relative;
+    top: -35px;
+    left: 1025px;
+}
+
+.link-navbar {
+    color: white;
+    font-size: 120%;
+    text-decoration:none;
+    padding: 5px;
+    
+}
+
+.link-navbar:hover {
+    color: rgb(111, 0, 255);
+}
