@@ -15,6 +15,55 @@ body {
     height: 90px;
     border-radius: 20px;
     position: fixed;
+    z-index: 1;
+}
+
+.contenedor-mi {
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.contenedor-texto-1 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    color:rgb(215, 122, 243)
+}
+
+.contenedor-sobre-mi {
+    width: 100%;
+    height: 0%;
+    background-color: violet;
+    position: relative;
+    top: 600px;
+    left: 0px;
+    border-radius: 150px;
+    text-align: center;
+}
+
+.contenedor-texto-2 {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: large;
+    color: aliceblue;
+}
+
+.foto {
+    background-image: url(../Challenge-Landing-Page/Images/Foto-Perfil.jpeg);
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+    position: relative;
+    top: 2px;
+    left: 50px;
+    border-radius: 150px;
 }
 
 .logo {
