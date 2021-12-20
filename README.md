@@ -8,3 +8,6 @@ Challenge-Landing-Page: Navbar.
 
 - Tercer-Ejercicio:
 Challenge-Section: Hero
+
+- Cuarto-Ejercicio:
+Challenge Advantages
